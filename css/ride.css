@@ -1,0 +1,113 @@
+html, body, #main, #map {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.info {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 100;
+    width: 275px;
+    background: transparent;
+}
+
+.info .panel-body {
+    background: transparent;
+}
+
+#request {
+    position: relative;
+    background: #fcc1d4 none repeat scroll 0 0;
+    color: #000;
+    border-color: #000;
+    border-radius: 5px;
+    text-align: center;
+    width: 135px;
+}
+
+#request:disabled {
+    color: #999;
+    border-color: #999;
+}
+
+#accountLink {
+    background: inherit;
+}
+
+#updates {
+    list-style: none;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#updates li {
+    margin: 3px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    padding: 5px;
+}
+
+.authToken {
+    word-wrap: break-word;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 490px;
+    /* margin-bottom: 50px; */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
